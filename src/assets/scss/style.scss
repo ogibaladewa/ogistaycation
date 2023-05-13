@@ -56,31 +56,3 @@
   font-family: "Poppins", sans-serif;
   color: $primary;
 }
-<<<<<<< HEAD
-
-header {
-  border-bottom: 1px solid $gray-200;
-  width: 100%;
-  position: relative;
-
-  .navbar {
-    height: 80px;
-
-    .navbar-nav {
-      li.nav-item {
-        a {
-          &.nav-link {
-            color: $gray-900;
-            padding-left: 1 rem;
-            padding-right: 1 rem;
-            &:hover {
-              text-decoration: underline;
-            }
-          }
-        }
-      }
-    }
-  }
-}
-=======
->>>>>>> parent of f7d55ed (mess 3)
