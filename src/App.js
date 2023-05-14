@@ -1,9 +1,22 @@
-import 'assets/scss/style.scss';
+import React from "react";
+import {
+  BrowserRouter as Router,
+  Route,
+  NavLink,
+  Routes,
+} from "react-router-dom";
+
+import "assets/scss/style.scss";
+import LandingPage from "pages/LandingPage";
 
 function App() {
   return (
     <div className="App">
-      Hai Dunia!
+      <Router>
+        <Routes>
+          <Route path="/" Component={LandingPage}></Route>
+        </Routes>
+      </Router>
     </div>
   );
 }
